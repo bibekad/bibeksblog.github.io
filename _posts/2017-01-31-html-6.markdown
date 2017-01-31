@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "HTML-6: Managing Footer"
+date:   2017-01-31 19:47:00 +530
+categories: html
+---
+`Footer` is the end of your page, in footer there are two `article` tags, `footer-left` and `footer-right`, both of them are to come side by side. `footer-left` will cover 30% of screen, `footer-right` will cover around 60% of screen, 1% will be given to `margin` and remaining screen will be flexible.
+{% highlight ruby %}
+<footer class="footer">
+<article class="footer-left">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+</article>
+<article class="footer-right">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+</article>
+</footer>
+{% endhighlight %}
+Output:<br/>
+<footer class="footer">
+<article class="footer-left">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+</article>
+<article class="footer-right">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+</article>
+</footer>
+<br/>
+Lets add `CSS`
+{% highlight ruby %}
+.footer article{
+  float:left;
+  margin:1%;
+}
+.footer-left{
+  width:30%;
+}
+.footer-right{
+  width:60%;
+}
+{% endhighlight %}
+<style>
+.footer1 article{
+  float:left;
+  margin:1%;
+  min-height: 200px;
+  max-height: 280px;
+
+}
+.footer-left1{
+  width:30%;
+}
+.footer-right1{
+  width:60%;
+}
+</style>
+Output:<br/>
+<footer class="footer1">
+<article class="footer-left1">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+<br/>
+</article>
+<article class="footer-right1">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis<br/>
+</article>
+</footer>
+`Footer` contains should be changed, you can check out better footer modles on `google`, and check out what you want to write. Codes, favicons should be better than other for footer.
