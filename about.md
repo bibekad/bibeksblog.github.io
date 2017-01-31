@@ -26,7 +26,7 @@ The name Bibek is pronounced as BeeBek, means mindful or mind in Sanskrit
 <li>Designed and developed on Kali OS</li>
 <li>Developed with Atom</li>
 <li>Built on Jekyll, the open source static site generator</li>
-<li>Hosted on GitHub Pages</li>
+<li>Hosted on Github</li>
 <br/>
 <p> If you enjoy the content found here, you might like to subscribe to my <i class="fa fa-rss"></i> feed. Also feel free to send me any feedback, comments, or suggestions about the site.</p>
 </div>
