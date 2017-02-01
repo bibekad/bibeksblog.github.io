@@ -18,6 +18,7 @@ The name Bibek is pronounced as BeeBek, means mindful or mind in Sanskrit
 <i class="fa fa-google-plus" style="font-size:35px"></i>
 <i class="fa fa-linkedin" style="font-size:35px"></i>
 <i class="fa fa-instagram" style="font-size:35px"></i>
+<i class="fa fa-github" style="font-size:35px"></i>
 </h1>
 <p>Writing content is a matter of work. Sometimes it requires more than a night to write a content, but making design is fun. I made {{site.title}} so I would be able to do both.</p>
 <h1>About the Site</h1>
