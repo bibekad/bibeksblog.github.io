@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C tutorial 6:Loops"
-date:   2017-02-01 07:37:33 +0530
+date:   2017-02-01 07:37:33 +530
 categories: c-tutorial
 ---
 `loops` you will find many loops on other programs if you watch any, now how to apply `loops`, there are three methods, the `while loop`, `the do while loop`, the `for loop`. Now lets see how they are used and why<br>
