@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div style="width:80%" class="cont">
+
+<div style="width:80%" style="margin-top:60px;">
 <p>Hello My name is Bibek Adhikari (बिबेक अधिकारी) and I'm a student of Kathmandu,Nepal, currently in Punjab,India for my Btech who loves to design, front-end development and coding a lot.  
 </p>
 <blockquote>

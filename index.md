@@ -1,6 +1,5 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
+<!--This page is left empty for a reason, this is page to show the posts, And Things sholuld not be added in index.md -->
+<!--Instead the file default in layout should be edited for editing index.html!-->

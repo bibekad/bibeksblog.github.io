@@ -41,30 +41,39 @@
 
 <div style="margin-top:60px;">
 <section class="container1">
-<h3>HTML-2:Making body</h3>
-<small>January 28 2017</small><br/>
+<h3>C tutorial-5:Loop</h3>
+<small>February  1 2017</small><br/>
 <br/>
-  <p>To start with, maaking a <code class="highlighter-rouge">HTML-5</code> webpage we have to strat from the first tag. Then the links, meta tags, the head, then the body.<br /></p>
-<h3>HTML</h3>
+  <p><code class="highlighter-rouge">loops</code> you will find many loops on other programs if you watch any, now how to apply <code class="highlighter-rouge">loops</code>, there are three methods, the <code class="highlighter-rouge">while loop</code>, <code class="highlighter-rouge">the do while loop</code>, the <code class="highlighter-rouge">for loop</code>. Now lets see how they are used and why<br />
+while(comdition){<br />
+  statements;
+}
+<code class="highlighter-rouge">while</code> loop will looks for condition, if condition is true, then it will run until the condition gets false.<br />
+do(condition){<br />
+  statements;
+}
+‘do while’ loop is similar to while loop, the only difference is that, in <code class="highlighter-rouge">do while</code> loop the loop runs for once then it checks for the condition.<br />
+for(initialization;condition;updation)
+{
+  statements;
+}
+<code class="highlighter-rouge">for</code>loop is the most used loop, and as easy to understand as other loops.<br />
+Lets print a number twice using for loop
+for input a=10<br /></p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!</span><span class="no">DOCTYPE</span> <span class="n">html</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span> <span class="no">Web</span> <span class="no">Page</span> <span class="o">&lt;</span><span class="sr">/title&gt;
-&lt;link rel="stylesheet" href="main.css"&gt;
-&lt;link rel="short icon" type="xicon" href="favicon.ico"&gt;
-&lt;!--We will make main.css later--&gt;
-&lt;meta charset="UTF-8"&gt;
-&lt;/</span><span class="n">head</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">header</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="sr">/header&gt;
-&lt;section&gt;
-&lt;/se</span><span class="n">ction</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">footer</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="sr">/footer&gt;
-&lt;/</span><span class="n">body</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="sr">/html&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="n">a</span><span class="p">;</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s2">"%d"</span><span class="p">,</span><span class="o">&amp;</span><span class="n">a</span><span class="p">);</span>
+<span class="k">for</span><span class="p">(</span><span class="n">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="mi">2</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="nb">printf</span><span class="p">(</span><span class="s2">"%d/n"</span><span class="p">,</span><span class="n">a</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
 
+<p>Output:</p>
+<blockquote>
+10<br />
+10<br />
+10<br />
+</blockquote>
 
 </section>
 </div>
