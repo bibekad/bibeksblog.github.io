@@ -23,7 +23,7 @@ Output:
 <blockquote>
 Hello World!
 </blockquote>
-Now what you have to understand is except for `%` and `/` annything that you will write between " and " of your printf  will be printed as such in your output.
+Now what you have to understand is except for `%` and `\` annything that you will write between " and " of your printf  will be printed as such in your output.
 Now the question that I forgot to tell is how to get the output. To get the output in `Devc++` or other windows software, You can click `compile and run in tab compile` for `linux` to get output you have to open `terminal` in same file location where your program is saved and type following.
 {% highlight ruby %}
 # g++ filename.cpp
@@ -45,19 +45,19 @@ Output:
 <blockquote>
 Hello World!Hello World!
 </blockquote>
-The output is not what you expected, or is it? We expected two `Hello World!`s to come in two different lines but what we forgot is to tell the compiler to break line just like `<br>` that we use to break line in html, in C we have `/n` now where to keep it in `printf`
+The output is not what you expected, or is it? We expected two `Hello World!`s to come in two different lines but what we forgot is to tell the compiler to break line just like `<br>` that we use to break line in html, in C we have `\n` now where to keep it in `printf`
 {% highlight ruby %}
 #include<stdio.h>
 int main()
 {
-printf("Hello World!/n");
+printf("Hello World!\n");
 printf("Hello World!");
 }
 {% endhighlight %}
-Now do you remember that except for `%` and `/` elements everything except for it gets printed as it is. So the output will be<br>
+Now do you remember that except for `%` and `\` elements everything except for it gets printed as it is. So the output will be<br>
 Output:
 <blockquote>
 Hello World!<br>
 Hello World!
 </blockquote>
-For linux I recommend to use `/n` on both `printf` statements to get the terminal initials a line below when our program ends.
+For linux I recommend to use `\n` on both `printf` statements to get the terminal initials a line below when our program ends.
