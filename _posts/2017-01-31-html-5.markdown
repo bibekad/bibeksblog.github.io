@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 {% endhighlight %}
 
 Output:<br>
-<section class="section">
+<section class="section2">
 <article class="article">
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium 
 </article>
@@ -42,7 +42,7 @@ Now let's add `CSS`
 }
 {% endhighlight %}
 OUTPUT:<br>
-<section class="section1">
+<section class="section3">
 <article class="article">
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium 
 </article>
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 </article>
 </section>
 <style>
-.section1 article
+.section3 article
 {
   float:left;
   width:30%;
