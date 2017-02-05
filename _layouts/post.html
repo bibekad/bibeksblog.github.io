@@ -1,16 +1,7 @@
-<html>
-<title>{{site.title}}</title>
 {% include head.html %}
-<body>
-  {% include nav.html %}
-<div style="margin-top:60px;">
-<section class="container1">
-<h3>{{ page.title }}</h3>
-<small>{{ page.date | date: "%B %e %Y" }}</small><br/>
-<br/>
-  {{content}}
-</section>
+{% include nav.html %}
+<div class="container">
+{{content}}
 </div>
-  {% include comment.html %}
-</body>
-</html>
+{% include footer.html %}
+</div>

@@ -1,21 +1,15 @@
-<html>
-<title>Bibek's blog</title>
-<head>
+<home>
+  <title>Bibek Adhikari</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/asset/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-                                                 rel="stylesheet" id="bootstrap-css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</home>
 
-<body>
-  
-<header class="nav-down">
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height: 30px; background-color: white;">
+<nav class="navbar navbar-default" style="background-color:white;border:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,28 +17,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/index">Bibek's blog</a>
+      <a class="navbar-brand" href="/">Bibek Adhikari</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
       <ul class="nav navbar-nav">
-        <li class=""><a href="/index">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""><a href="/">Writings</a></li>
         <li class=""><a href="/about">About</a></li>
         <li class=""><a href="/contact">Contact</a></li>
-
-      </ul>
       </ul>
     </div>
   </div>
 </nav>
-</header>
+<style>
+.navbar{
+  margin-bottom:0px
+}
+</style>
 
-<div style="margin-top:60px;">
-<section class="container1">
-<h3>HTML-4:Making Header</h3>
-<small>January 30 2017</small><br/>
-<br/>
-  <p>In the <code class="highlighter-rouge">header</code> we have made contains two <code class="highlighter-rouge">nav</code>s <code class="highlighter-rouge">navleft</code> and <code class="highlighter-rouge">navright</code>. <code class="highlighter-rouge">navleft</code> will contain the heading of blog, while <code class="highlighter-rouge">navright</code> will contain the menu of the blog.
+<div class="container">
+<p>In the <code class="highlighter-rouge">header</code> we have made contains two <code class="highlighter-rouge">nav</code>s <code class="highlighter-rouge">navleft</code> and <code class="highlighter-rouge">navright</code>. <code class="highlighter-rouge">navleft</code> will contain the heading of blog, while <code class="highlighter-rouge">navright</code> will contain the menu of the blog.
 Now let’s continue editing the previous blog</p>
 <h3> HTML </h3>
 
@@ -129,17 +122,46 @@ width: 70%;
 
 <p>If you like you can also add fancy things like fa fa-icons, or change the font</p>
 
-</section>
 </div>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-width="1000" data-numposts="5"></div>
+<div class="jumbotron text-center" style="margin-bottom: 0px;">
+<span class="hicon">
+<a href="/feed.xml"><button class="feed"><i class="fa fa-feed"></i></button></a>
+<a href="http://facebook.com/user"><button class="fb"><i class="fa fa-facebook"></i></button></a>
+<a href="http://twitter.com/user"><button class="tweet"><i class="fa fa-twitter"></i></button></a>
+<a href="http://instagram.com/user"><button class="insta"><i class="fa fa-instagram"></i></button></a>
+</span><br/><br/>
+&copy;<a href="" style="color:black;"> Bibek Adhikari</a>
+</div>
+<style>
+.hicon button
+{
+color: white;
+background-color:#404040;
+width: 30px;
+height: 30px;
+border: 3px black;
+-webkit-border-radius: 360px;
+margin-left: 5px;
+margin-right: 5px;
+}
+button a{
+  color: white;
+}
+.feed, .fb, .tweet, .insta{
+  -webkit-transition:background-color 2s;
+}
+.feed:hover{
+  background-color:#FF6600;
+}
+.fb:hover{
+  background-color:#3b5998;
+}
+.tweet:hover{
+  background-color:#0084b4;
+}
+.insta:hover{
+  background-color:#4c68d7;
+}
+</style>
 
-</body>
-</html>
+</div>

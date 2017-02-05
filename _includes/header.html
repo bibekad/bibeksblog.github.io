@@ -1,0 +1,22 @@
+<div class="jumbotron text-center">
+<h1>{{ page.title }}</h1><br>
+<center><p style="color:grey;"> {% if page.url == '/' %}-I am a front end developer who is currently studying back end programming<br><br> {% endif %} <button class="smallbutton"></button></center><br/>
+</p>
+</div>
+<style>
+.smallbutton{
+  background-color: green;
+  border:1px;
+  -webkit-border-radius: 2px;
+  height: 5px;
+  width: 5px;
+  opacity: 0;
+  -webkit-transition: width 2s, opacity 2s;
+}
+.jumbotron:hover .smallbutton
+{
+width: 150px;
+opacity: 1;
+}
+
+</style>

@@ -1,21 +1,15 @@
-<html>
-<title>Bibek's blog</title>
-<head>
+<home>
+  <title>Bibek Adhikari</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/asset/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-                                                 rel="stylesheet" id="bootstrap-css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</home>
 
-<body>
-  
-<header class="nav-down">
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height: 30px; background-color: white;">
+<nav class="navbar navbar-default" style="background-color:white;border:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,51 +17,50 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/index">Bibek's blog</a>
+      <a class="navbar-brand" href="/">Bibek Adhikari</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
       <ul class="nav navbar-nav">
-        <li class=""><a href="/index">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""><a href="/">Writings</a></li>
         <li class=""><a href="/about">About</a></li>
         <li class=""><a href="/contact">Contact</a></li>
-
-      </ul>
       </ul>
     </div>
   </div>
 </nav>
-</header>
+<style>
+.navbar{
+  margin-bottom:0px
+}
+</style>
 
-<div style="margin-top:60px;">
-<section class="container1">
-<h3>Html-5:Managing Sections</h3>
-<small>January 31 2017</small><br/>
-<br/>
-  <p>In the <code class="highlighter-rouge">section</code>, we have meade three <code class="highlighter-rouge">article</code>s tag, each is to come side by side and have 30% of screen.</p>
+<div class="container">
+<p>In the <code class="highlighter-rouge">section</code>, we have meade three <code class="highlighter-rouge">article</code>s tag, each is to come side by side and have 30% of screen.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">section</span> <span class="k">class</span><span class="o">=</span><span class="s2">"section"</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="n">article</span> <span class="k">class</span><span class="o">=</span><span class="s2">"article"</span><span class="o">&gt;</span>
-<span class="no">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetuer</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">commodo</span> <span class="n">ligula</span> <span class="n">eget</span> <span class="n">dolor</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">massa</span><span class="o">.</span> <span class="no">Cum</span> <span class="n">sociis</span> <span class="n">natoque</span> <span class="n">penatibus</span> <span class="n">et</span> <span class="n">magnis</span> <span class="n">dis</span> <span class="n">parturient</span> <span class="n">montes</span><span class="p">,</span> <span class="n">nascetur</span> <span class="n">ridiculus</span> <span class="n">mus</span><span class="o">.</span> <span class="no">Donec</span> <span class="n">quam</span> <span class="n">felis</span><span class="p">,</span> <span class="n">ultricies</span> <span class="n">nec</span><span class="p">,</span> <span class="n">pellentesque</span> <span class="n">eu</span><span class="p">,</span> <span class="n">pretium</span> <span class="n">quis</span><span class="p">,</span> <span class="n">sem</span><span class="o">.</span> <span class="no">Nulla</span> <span class="n">consequat</span> <span class="n">massa</span> <span class="n">quis</span> <span class="n">enim</span><span class="o">.</span> <span class="no">Donec</span> <span class="n">pede</span> <span class="n">justo</span><span class="p">,</span> <span class="n">fringilla</span> <span class="n">vel</span><span class="p">,</span> <span class="n">aliquet</span> <span class="n">nec</span><span class="p">,</span> <span class="n">vulputate</span> <span class="n">eget</span><span class="p">,</span> <span class="n">arcu</span><span class="o">.</span> <span class="no">In</span> <span class="n">enim</span> <span class="n">justo</span><span class="p">,</span> <span class="n">rhoncus</span> <span class="n">ut</span><span class="p">,</span> <span class="n">imperdiet</span> <span class="n">a</span><span class="p">,</span> <span class="n">venenatis</span> <span class="n">vitae</span><span class="p">,</span> <span class="n">justo</span><span class="o">.</span> <span class="no">Nullam</span> <span class="n">dictum</span> <span class="n">felis</span> <span class="n">eu</span> <span class="n">pede</span> <span class="n">mollis</span> <span class="n">pretium</span><span class="o">.</span> <span class="no">Integer</span> <span class="n">tincidunt</span><span class="o">.</span> <span class="no">Cras</span> <span class="n">dapibus</span><span class="o">.</span> <span class="no">Vivamus</span> <span class="n">elementum</span> <span class="n">semper</span> <span class="n">nisi</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">vulputate</span> <span class="n">eleifend</span> <span class="n">tellus</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">leo</span> <span class="n">ligula</span><span class="p">,</span> <span class="n">porttitor</span> <span class="n">eu</span><span class="p">,</span> <span class="n">consequat</span> <span class="n">vitae</span><span class="p">,</span> <span class="n">eleifend</span> <span class="n">ac</span><span class="p">,</span> <span class="n">enim</span><span class="o">.</span> <span class="no">Aliquam</span> <span class="n">lorem</span> <span class="n">ante</span><span class="p">,</span> <span class="n">dapibus</span> <span class="k">in</span><span class="p">,</span> <span class="n">viverra</span> <span class="n">quis</span><span class="p">,</span> <span class="n">feugiat</span> <span class="n">a</span><span class="p">,</span>
+<span class="no">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetuer</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">commodo</span> <span class="n">ligula</span> <span class="n">eget</span> <span class="n">dolor</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">massa</span><span class="o">.</span> <span class="no">Cum</span> <span class="n">sociis</span> <span class="n">natoque</span> <span class="n">penatibus</span> <span class="n">et</span> <span class="n">magnis</span> <span class="n">dis</span> <span class="n">parturient</span> <span class="n">montes</span><span class="p">,</span> <span class="n">nascetur</span> <span class="n">ridiculus</span> <span class="n">mus</span><span class="o">.</span> <span class="no">Donec</span> <span class="n">quam</span> <span class="n">felis</span><span class="p">,</span> 
 <span class="o">&lt;</span><span class="sr">/article&gt;
 &lt;article class="article"&gt;
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
 &lt;/</span><span class="n">article</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="n">article</span> <span class="k">class</span><span class="o">=</span><span class="s2">"article"</span><span class="o">&gt;</span>
-<span class="no">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetuer</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">commodo</span> <span class="n">ligula</span> <span class="n">eget</span> <span class="n">dolor</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">massa</span><span class="o">.</span> <span class="no">Cum</span> <span class="n">sociis</span> <span class="n">natoque</span> <span class="n">penatibus</span> <span class="n">et</span> <span class="n">magnis</span> <span class="n">dis</span> <span class="n">parturient</span> <span class="n">montes</span><span class="p">,</span> <span class="n">nascetur</span> <span class="n">ridiculus</span> <span class="n">mus</span><span class="o">.</span> <span class="no">Donec</span> <span class="n">quam</span> <span class="n">felis</span><span class="p">,</span> <span class="n">ultricies</span> <span class="n">nec</span><span class="p">,</span> <span class="n">pellentesque</span> <span class="n">eu</span><span class="p">,</span> <span class="n">pretium</span> <span class="n">quis</span><span class="p">,</span> <span class="n">sem</span><span class="o">.</span> <span class="no">Nulla</span> <span class="n">consequat</span> <span class="n">massa</span> <span class="n">quis</span> <span class="n">enim</span><span class="o">.</span> <span class="no">Donec</span> <span class="n">pede</span> <span class="n">justo</span><span class="p">,</span> <span class="n">fringilla</span> <span class="n">vel</span><span class="p">,</span> <span class="n">aliquet</span> <span class="n">nec</span><span class="p">,</span> <span class="n">vulputate</span> <span class="n">eget</span><span class="p">,</span> <span class="n">arcu</span><span class="o">.</span> <span class="no">In</span> <span class="n">enim</span> <span class="n">justo</span><span class="p">,</span> <span class="n">rhoncus</span> <span class="n">ut</span><span class="p">,</span> <span class="n">imperdiet</span> <span class="n">a</span><span class="p">,</span> <span class="n">venenatis</span> <span class="n">vitae</span><span class="p">,</span> <span class="n">justo</span><span class="o">.</span> <span class="no">Nullam</span> <span class="n">dictum</span> <span class="n">felis</span> <span class="n">eu</span> <span class="n">pede</span> <span class="n">mollis</span> <span class="n">pretium</span><span class="o">.</span> <span class="no">Integer</span> <span class="n">tincidunt</span><span class="o">.</span> <span class="no">Cras</span> <span class="n">dapibus</span><span class="o">.</span> <span class="no">Vivamus</span> <span class="n">elementum</span> <span class="n">semper</span> <span class="n">nisi</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">vulputate</span> <span class="n">eleifend</span> <span class="n">tellus</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">leo</span> <span class="n">ligula</span><span class="p">,</span> <span class="n">porttitor</span> <span class="n">eu</span><span class="p">,</span> <span class="n">consequat</span> <span class="n">vitae</span><span class="p">,</span> <span class="n">eleifend</span> <span class="n">ac</span><span class="p">,</span> <span class="n">enim</span><span class="o">.</span> <span class="no">Aliquam</span> <span class="n">lorem</span> <span class="n">ante</span><span class="p">,</span> <span class="n">dapibus</span> <span class="k">in</span><span class="p">,</span> <span class="n">viverra</span> <span class="n">quis</span><span class="p">,</span> <span class="n">feugiat</span> <span class="n">a</span><span class="p">,</span>
+<span class="no">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetuer</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">commodo</span> <span class="n">ligula</span> <span class="n">eget</span> <span class="n">dolor</span><span class="o">.</span> <span class="no">Aenean</span> <span class="n">massa</span><span class="o">.</span> <span class="no">Cum</span> <span class="n">sociis</span> <span class="n">natoque</span> <span class="n">penatibus</span> <span class="n">et</span> <span class="n">magnis</span> <span class="n">dis</span> <span class="n">parturient</span> <span class="n">montes</span><span class="p">,</span> <span class="n">nascetur</span> <span class="n">ridiculus</span> <span class="n">mus</span><span class="o">.</span> <span class="no">Donec</span> <span class="n">quam</span> <span class="n">felis</span><span class="p">,</span> 
 <span class="o">&lt;</span><span class="sr">/article&gt;
 &lt;/se</span><span class="n">ction</span><span class="o">&gt;</span></code></pre></figure>
 
 <p>Output:<br /></p>
-<section class="section">
+<section class="section2">
 <article class="article">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium 
 </article>
 <article class="article">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium 
 </article>
 <article class="article">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium 
 </article>
 </section>
 <p><br />
@@ -81,41 +74,69 @@ Now let’s add <code class="highlighter-rouge">CSS</code></p>
 <span class="p">}</span></code></pre></figure>
 
 <p>OUTPUT:<br /></p>
-<section class="section1">
+<section class="section3">
 <article class="article">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br />
 </article>
 <article class="article">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br />
 </article>
 <article class="article">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,<br />
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <br />
 </article>
 </section>
 <style>
-.section1 article
+.section3 article
 {
   float:left;
   width:30%;
-  margin:1.1%;
+  margin:1.3%;
+  min-height: 240px;
+  max-height: 400px;
 }
 </style>
 
-<p>
-You can replace `Lorem ispem` dummy text with any other text, keeping headers, or even codes, if you do not like 30% as margin, keep different classes on different articles just like we did for navbar and you can make article and aside differently. You can also keep html code inside of the article itself, It's all your wish what you want to do
-</p>
 
-</section>
 </div>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-width="1000" data-numposts="5"></div>
+<div class="jumbotron text-center" style="margin-bottom: 0px;">
+<span class="hicon">
+<a href="/feed.xml"><button class="feed"><i class="fa fa-feed"></i></button></a>
+<a href="http://facebook.com/user"><button class="fb"><i class="fa fa-facebook"></i></button></a>
+<a href="http://twitter.com/user"><button class="tweet"><i class="fa fa-twitter"></i></button></a>
+<a href="http://instagram.com/user"><button class="insta"><i class="fa fa-instagram"></i></button></a>
+</span><br/><br/>
+&copy;<a href="" style="color:black;"> Bibek Adhikari</a>
+</div>
+<style>
+.hicon button
+{
+color: white;
+background-color:#404040;
+width: 30px;
+height: 30px;
+border: 3px black;
+-webkit-border-radius: 360px;
+margin-left: 5px;
+margin-right: 5px;
+}
+button a{
+  color: white;
+}
+.feed, .fb, .tweet, .insta{
+  -webkit-transition:background-color 2s;
+}
+.feed:hover{
+  background-color:#FF6600;
+}
+.fb:hover{
+  background-color:#3b5998;
+}
+.tweet:hover{
+  background-color:#0084b4;
+}
+.insta:hover{
+  background-color:#4c68d7;
+}
+</style>
 
-</body>
-</html>
+</div>

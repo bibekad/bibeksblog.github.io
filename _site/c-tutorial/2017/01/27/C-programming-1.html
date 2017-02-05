@@ -1,21 +1,15 @@
-<html>
-<title>Bibek's blog</title>
-<head>
+<home>
+  <title>Bibek Adhikari</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/asset/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-                                                 rel="stylesheet" id="bootstrap-css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</home>
 
-<body>
-  
-<header class="nav-down">
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height: 30px; background-color: white;">
+<nav class="navbar navbar-default" style="background-color:white;border:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,28 +17,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/index">Bibek's blog</a>
+      <a class="navbar-brand" href="/">Bibek Adhikari</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
       <ul class="nav navbar-nav">
-        <li class=""><a href="/index">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""><a href="/">Writings</a></li>
         <li class=""><a href="/about">About</a></li>
         <li class=""><a href="/contact">Contact</a></li>
-
-      </ul>
       </ul>
     </div>
   </div>
 </nav>
-</header>
+<style>
+.navbar{
+  margin-bottom:0px
+}
+</style>
 
-<div style="margin-top:60px;">
-<section class="container1">
-<h3>C tutorial-1:Printf</h3>
-<small>January 27 2017</small><br/>
-<br/>
-  <p>The first thnig that anyone will learn on Btech CSE is <code class="highlighter-rouge">C programming</code>. To start what is <code class="highlighter-rouge">c programming</code>. It is just a subject oriented language. Anyone would wonder why do we need <code class="highlighter-rouge">C language</code> when we already have object oriented programming languages like <code class="highlighter-rouge">c++</code>.
+<div class="container">
+<p>The first thnig that anyone will learn on Btech CSE is <code class="highlighter-rouge">C programming</code>. To start what is <code class="highlighter-rouge">c programming</code>. It is just a subject oriented language. Anyone would wonder why do we need <code class="highlighter-rouge">C language</code> when we already have object oriented programming languages like <code class="highlighter-rouge">c++</code>.
 But in reality we do need <code class="highlighter-rouge">C programming language</code> because each and every language that comes futher is further extention of C language.(Atleast that’s what our teacher said to make us believe that C is important). Now what do we need to start learning <code class="highlighter-rouge">C programming</code>. We need an operating system. any operating system. <code class="highlighter-rouge">Windows</code> or <code class="highlighter-rouge">Linux</code> or <code class="highlighter-rouge">Mac</code> or any other. And you will need an editing software. Like while I was using <code class="highlighter-rouge">windows</code>, I used <code class="highlighter-rouge">Dev C++</code>, some of my friends used <code class="highlighter-rouge">Code Blocks</code>.You can visit their official website, download and install. Easy as that. For <code class="highlighter-rouge">linux</code> you can use any editor just like <code class="highlighter-rouge">gedit</code>, or <code class="highlighter-rouge">leafpad</code>, I personally like to use <code class="highlighter-rouge">Atom</code>. to download atom just go to <a href="http://atom.io">Atom</a> website and download it and install it using your terminal.
 I have never used mac so I’ve no idea what works for <code class="highlighter-rouge">mac</code>, but you can always <code class="highlighter-rouge">google</code>.
 Now what would be the first thing to do in <code class="highlighter-rouge">C programming</code>. Like every other tutorial you might have read or watched, I’m also going to print hello world.
@@ -63,7 +56,7 @@ Output:</p>
 <blockquote>
 Hello World!
 </blockquote>
-<p>Now what you have to understand is except for <code class="highlighter-rouge">%</code> and <code class="highlighter-rouge">/</code> annything that you will write between “ and “ of your printf  will be printed as such in your output.
+<p>Now what you have to understand is except for <code class="highlighter-rouge">%</code> and <code class="highlighter-rouge">\</code> annything that you will write between “ and “ of your printf  will be printed as such in your output.
 Now the question that I forgot to tell is how to get the output. To get the output in <code class="highlighter-rouge">Devc++</code> or other windows software, You can click <code class="highlighter-rouge">compile and run in tab compile</code> for <code class="highlighter-rouge">linux</code> to get output you have to open <code class="highlighter-rouge">terminal</code> in same file location where your program is saved and type following.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># g++ filename.cpp</span>
@@ -85,34 +78,63 @@ Now the question that I forgot to tell is how to get the output. To get the outp
 <blockquote>
 Hello World!Hello World!
 </blockquote>
-<p>The output is not what you expected, or is it? We expected two <code class="highlighter-rouge">Hello World!</code>s to come in two different lines but what we forgot is to tell the compiler to break line just like <code class="highlighter-rouge">&lt;br&gt;</code> that we use to break line in html, in C we have <code class="highlighter-rouge">/n</code> now where to keep it in <code class="highlighter-rouge">printf</code></p>
+<p>The output is not what you expected, or is it? We expected two <code class="highlighter-rouge">Hello World!</code>s to come in two different lines but what we forgot is to tell the compiler to break line just like <code class="highlighter-rouge">&lt;br&gt;</code> that we use to break line in html, in C we have <code class="highlighter-rouge">\n</code> now where to keep it in <code class="highlighter-rouge">printf</code></p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#include&lt;stdio.h&gt;</span>
 <span class="n">int</span> <span class="n">main</span><span class="p">()</span>
 <span class="p">{</span>
-<span class="nb">printf</span><span class="p">(</span><span class="s2">"Hello World!/n"</span><span class="p">);</span>
+<span class="nb">printf</span><span class="p">(</span><span class="s2">"Hello World!</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
 <span class="nb">printf</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Now do you remember that except for <code class="highlighter-rouge">%</code> and <code class="highlighter-rouge">/</code> elements everything except for it gets printed as it is. So the output will be<br />
+<p>Now do you remember that except for <code class="highlighter-rouge">%</code> and <code class="highlighter-rouge">\</code> elements everything except for it gets printed as it is. So the output will be<br />
 Output:</p>
 <blockquote>
 Hello World!<br />
 Hello World!
 </blockquote>
-<p>For linux I recommend to use <code class="highlighter-rouge">/n</code> on both <code class="highlighter-rouge">printf</code> statements to get the terminal initials a line below when our program ends.</p>
+<p>For linux I recommend to use <code class="highlighter-rouge">\n</code> on both <code class="highlighter-rouge">printf</code> statements to get the terminal initials a line below when our program ends.</p>
 
-</section>
 </div>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-width="1000" data-numposts="5"></div>
+<div class="jumbotron text-center" style="margin-bottom: 0px;">
+<span class="hicon">
+<a href="/feed.xml"><button class="feed"><i class="fa fa-feed"></i></button></a>
+<a href="http://facebook.com/user"><button class="fb"><i class="fa fa-facebook"></i></button></a>
+<a href="http://twitter.com/user"><button class="tweet"><i class="fa fa-twitter"></i></button></a>
+<a href="http://instagram.com/user"><button class="insta"><i class="fa fa-instagram"></i></button></a>
+</span><br/><br/>
+&copy;<a href="" style="color:black;"> Bibek Adhikari</a>
+</div>
+<style>
+.hicon button
+{
+color: white;
+background-color:#404040;
+width: 30px;
+height: 30px;
+border: 3px black;
+-webkit-border-radius: 360px;
+margin-left: 5px;
+margin-right: 5px;
+}
+button a{
+  color: white;
+}
+.feed, .fb, .tweet, .insta{
+  -webkit-transition:background-color 2s;
+}
+.feed:hover{
+  background-color:#FF6600;
+}
+.fb:hover{
+  background-color:#3b5998;
+}
+.tweet:hover{
+  background-color:#0084b4;
+}
+.insta:hover{
+  background-color:#4c68d7;
+}
+</style>
 
-</body>
-</html>
+</div>
