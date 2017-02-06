@@ -1,7 +1,13 @@
 <div class="jumbotron text-center">
-<h1>{{ page.title }}</h1><br>
-<center><p style="color:grey;"> {% if page.url == '/' %}-I am a front end developer who is currently studying back end programming<br><br> {% endif %} <button class="smallbutton"></button></center><br/>
+<h1>{% if page.url != '/' %} {{ page.title }}
+{% else if page.url == '/' %}{{ site.title }} {% endif %}
+</h1>
+
+<center>
+<button class="smallbutton"></button>
+<p style="color:grey;"> {% if page.url == '/' %}-I am a front end developer who is currently studying back end programming<br>{% endif %}</center>
 </p>
+</div>
 </div>
 <style>
 .smallbutton{
@@ -15,8 +21,10 @@
 }
 .jumbotron:hover .smallbutton
 {
+transition-timing-function: ease-in 2s;
+transition-timing-function: ease-out 2s;
 width: 150px;
 opacity: 1;
-}
+
 
 </style>
