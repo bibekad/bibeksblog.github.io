@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default" style="border:0px;background-color:white;margin-bottom:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	<a class="navbar-brand" href="/"><abbr style="font-family: URW Chancery L; font-size: 25px;">{{site.title}}</abbr></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right"> 
+{% for page in site.pages %}
+{% if page.layout == 'page' %}
+<li><a href="{{page.permalink}}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+  </div>
+  </div>
+</nav>
