@@ -43,7 +43,7 @@ Make `main.css`
   float:left;
 }
 .navleft{
-  width:30%;  
+  width:30%;
 }
 .navright{
 width: 60%;
@@ -66,6 +66,7 @@ My Blog
 </nav>
 </header>
 </blockquote>
+<br>
 <style>
 .hearder2{
 margin:20px;  
@@ -86,4 +87,6 @@ width: 70%;
   text-align:right;
 }
 </style>
+<br>
+
 If you like you can also add fancy things like fa fa-icons, or change the font
