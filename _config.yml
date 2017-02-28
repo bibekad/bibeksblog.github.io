@@ -1,3 +1,10 @@
 title: Bibek Adhikari
-baseurl: bibekadhikari.tk
+baseurl:
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+highlighter: rouge
+
+
 
