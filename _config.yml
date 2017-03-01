@@ -1,5 +1,5 @@
 title: Bibek Adhikari
-baseurl: 
+baseurl:
 markdown: kramdown
 theme: minima
 gems:
