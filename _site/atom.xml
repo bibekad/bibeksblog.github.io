@@ -4,12 +4,22 @@
  <title>Bibek Adhikari</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-03-01T18:58:20+05:45</updated>
+ <updated>2017-03-01T22:33:44+05:45</updated>
  <author>
    <name></name>
    <uri></uri>
    <email></email>
  </author>
+
+ 
+
+ <entry>
+   <title>Hello World</title>
+   <link href="http://localhost:4000/internet/2017/03/01/Hello-World.html"/>
+   <id>http://localhost:4000/internet/2017/03/01/Hello-World</id>
+   <updated>2017-03-01T00:15:00+05:45</updated>
+   <content type="html">&lt;p&gt;Have you ever wondered how many &lt;strong&gt;&lt;em&gt;languages&lt;/em&gt;&lt;/strong&gt; are there in which you can actually display anything in your browser. If you have ever searched about &lt;strong&gt;&lt;em&gt;languages&lt;/em&gt;&lt;/strong&gt; used for making websites, you know there are many &lt;strong&gt;&lt;em&gt;languages&lt;/em&gt;&lt;/strong&gt;, &lt;em&gt;frontend&lt;/em&gt;, &lt;em&gt;backend&lt;/em&gt;, lets not go in all those. In this article I am writing...</content>
+ </entry>
 
  
 
