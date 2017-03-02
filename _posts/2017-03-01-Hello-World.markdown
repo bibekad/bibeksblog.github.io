@@ -7,9 +7,9 @@ categories: internet
 Have you ever wondered how many ___languages___ are there in which you can actually display anything in your browser. If you have ever searched about ___languages___ used for making websites, you know there are many ___languages___, _frontend_, _backend_, lets not go in all those. In this article I am writing about the types by which you can write `Hello World` in browser. If we start writing all, it would be like a day just to read all those, but I will be writing the most popular ones.<br>
 <ol>
 <li> HTML</li>
-Even if you do not know anything about making websites, then also you must have known about HTML, and how to write Hello World in it, you just have to simply type hello world in a .html extension file, save it and run it in a browser. There is no need of applying any code in html to write anhything.
+Even if you do not know anything about making websites, then also you must have known about HTML, and how to write Hello World in it, you just have to simply type hello world in a .html extension file, save it and run it in a browser. There is no need of applying any code in html to write anhything.<br>
 <li> Javascript</li>
-`JavaScript` is the one of the most popular way of making a dynamic website. We can write Hello World in two different ways, 1st to write something in document, and next to write something in a alert box.{% highlight ruby %}<!-- document.write("Hello World");
+JavaScript is the one of the most popular way of making a dynamic website. We can write Hello World in two different ways, 1st to write something in document, and next to write something in a alert box.{% highlight ruby %}<!-- document.write("Hello World");
 alert("Hello World");
  !--> {% endhighlight %}
 <li> Java</li>
