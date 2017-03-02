@@ -3,6 +3,7 @@ layout: post
 title:  "HTML-3:Adding Class"
 date:   2017-01-29 09:23:17 +0530
 categories: html
+permalink: /posts/html-3
 ---
 To add classes, we have to consider standards like `.header` for `<header>`, `.section` for `<section>`....
 <h3> HTML </h3>

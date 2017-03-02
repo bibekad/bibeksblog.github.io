@@ -4,7 +4,7 @@
  <title>Bibek Adhikari</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-03-02T18:47:46+05:45</updated>
+ <updated>2017-03-02T22:51:18+05:45</updated>
  <author>
    <name></name>
    <uri></uri>
@@ -15,8 +15,8 @@
 
  <entry>
    <title>Starting Jekyll</title>
-   <link href="http://localhost:4000/internet/2017/03/02/Starting-Jekyll.html"/>
-   <id>http://localhost:4000/internet/2017/03/02/Starting-Jekyll</id>
+   <link href="http://localhost:4000/posts/starting-jekyll"/>
+   <id>http://localhost:4000/posts/Starting-Jekyll</id>
    <updated>2017-03-02T00:15:00+05:45</updated>
    <content type="html">&lt;p&gt;I have finally transfered my &lt;a href=&quot;/&quot;&gt;blog&lt;/a&gt; to Jekyll, for someone like me, who likes things free rather than paid, Using Jekyll to make my blog has been blessing. As you can see I am using a free web domain &lt;a href=&quot;http://dot.tk&quot;&gt;dot tk&lt;/a&gt; made using website &lt;a href=&quot;http://freenom.com&quot;&gt;freenom&lt;/a&gt;, making a...</content>
  </entry>
@@ -25,8 +25,8 @@
 
  <entry>
    <title>Hello World</title>
-   <link href="http://localhost:4000/internet/2017/03/01/Hello-World.html"/>
-   <id>http://localhost:4000/internet/2017/03/01/Hello-World</id>
+   <link href="http://localhost:4000/posts/hello-world"/>
+   <id>http://localhost:4000/posts/Hello-World</id>
    <updated>2017-03-01T00:15:00+05:45</updated>
    <content type="html">&lt;p&gt;Have you ever wondered how many &lt;strong&gt;&lt;em&gt;languages&lt;/em&gt;&lt;/strong&gt; are there in which you can actually display anything in your browser. If you have ever searched about &lt;strong&gt;&lt;em&gt;languages&lt;/em&gt;&lt;/strong&gt; used for making websites, you know there are many &lt;strong&gt;&lt;em&gt;languages&lt;/em&gt;&lt;/strong&gt;, &lt;em&gt;frontend&lt;/em&gt;, &lt;em&gt;backend&lt;/em&gt;, lets not go in all those. In this article I am writing...</content>
  </entry>
@@ -35,8 +35,8 @@
 
  <entry>
    <title>C tutorial-5:Loop</title>
-   <link href="http://localhost:4000/c-tutorial/2017/02/01/C-programming-5.html"/>
-   <id>http://localhost:4000/c-tutorial/2017/02/01/C-programming-5</id>
+   <link href="http://localhost:4000/posts/c-tutorial-5"/>
+   <id>http://localhost:4000/posts/C-programming-5</id>
    <updated>2017-02-01T08:38:17+05:45</updated>
    <content type="html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;loops&lt;/code&gt; you will find many loops on other programs if you watch any, now how to apply &lt;code class=&quot;highlighter-rouge&quot;&gt;loops&lt;/code&gt;, there are three methods, the &lt;code class=&quot;highlighter-rouge&quot;&gt;while loop&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;the do while loop&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;for loop&lt;/code&gt;. Now lets see how they are used and why&lt;br /&gt; while(comdition){&lt;br /&gt; statements;...</content>
  </entry>
@@ -45,8 +45,8 @@
 
  <entry>
    <title>HTML-4:Making Header</title>
-   <link href="http://localhost:4000/html/2017/01/30/html-4.html"/>
-   <id>http://localhost:4000/html/2017/01/30/html-4</id>
+   <link href="http://localhost:4000/posts/html-4"/>
+   <id>http://localhost:4000/posts/html-4</id>
    <updated>2017-01-30T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;header&lt;/code&gt; we have made contains two &lt;code class=&quot;highlighter-rouge&quot;&gt;nav&lt;/code&gt;s &lt;code class=&quot;highlighter-rouge&quot;&gt;navleft&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;navright&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;navleft&lt;/code&gt; will contain the heading of blog, while &lt;code class=&quot;highlighter-rouge&quot;&gt;navright&lt;/code&gt; will contain the menu of the blog. Now let’s continue editing the previous blog&lt;/p&gt; &lt;h3&gt; HTML &lt;/h3&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;...</content>
  </entry>
@@ -55,8 +55,8 @@
 
  <entry>
    <title>C tutorial-4:Algebra</title>
-   <link href="http://localhost:4000/c-tutorial/2017/01/30/C-programming-4.html"/>
-   <id>http://localhost:4000/c-tutorial/2017/01/30/C-programming-4</id>
+   <link href="http://localhost:4000/posts/c-tutorial-4"/>
+   <id>http://localhost:4000/posts/C-programming-4</id>
    <updated>2017-01-30T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;Now let’s begin again. Now we are going to look towards algerbra like &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;. To start with lets initialize two variables ‘a’ and ‘b’&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Or we can also use float&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;...</content>
  </entry>
@@ -65,8 +65,8 @@
 
  <entry>
    <title>HTML-3:Adding Class</title>
-   <link href="http://localhost:4000/html/2017/01/29/html-3.html"/>
-   <id>http://localhost:4000/html/2017/01/29/html-3</id>
+   <link href="http://localhost:4000/posts/html-3"/>
+   <id>http://localhost:4000/posts/html-3</id>
    <updated>2017-01-29T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;To add classes, we have to consider standards like &lt;code class=&quot;highlighter-rouge&quot;&gt;.header&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.section&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;section&amp;gt;&lt;/code&gt;….&lt;/p&gt; &lt;h3&gt; HTML &lt;/h3&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Web&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/title&amp;gt; &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;main.css&quot;&amp;gt; &amp;lt;link...</content>
  </entry>
@@ -75,8 +75,8 @@
 
  <entry>
    <title>C tutorial-3:Print variable</title>
-   <link href="http://localhost:4000/c-tutorial/2017/01/29/C-programming-3.html"/>
-   <id>http://localhost:4000/c-tutorial/2017/01/29/C-programming-3</id>
+   <link href="http://localhost:4000/posts/c-tutorial-3"/>
+   <id>http://localhost:4000/posts/C-programming-3</id>
    <updated>2017-01-29T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;Do you remember using &lt;code class=&quot;highlighter-rouge&quot;&gt;printf&lt;/code&gt; variable and &lt;code class=&quot;highlighter-rouge&quot;&gt;scanf&lt;/code&gt; variable. If you do that’s what we need now.&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;213&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;If you remember the initialiser...</content>
  </entry>
@@ -85,8 +85,8 @@
 
  <entry>
    <title>HTML-2:Making body</title>
-   <link href="http://localhost:4000/html/2017/01/28/html-2.html"/>
-   <id>http://localhost:4000/html/2017/01/28/html-2</id>
+   <link href="http://localhost:4000/posts/html-2"/>
+   <id>http://localhost:4000/posts/html-2</id>
    <updated>2017-01-28T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;To start with, maaking a &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML-5&lt;/code&gt; webpage we have to strat from the first tag. Then the links, meta tags, the head, then the body.&lt;br /&gt;&lt;/p&gt; &lt;h3&gt;HTML&lt;/h3&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Web&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt; &lt;span...</content>
  </entry>
@@ -95,8 +95,8 @@
 
  <entry>
    <title>C tutorial-2:Variables and Scanf</title>
-   <link href="http://localhost:4000/c-tutorial/2017/01/28/C-programming-2.html"/>
-   <id>http://localhost:4000/c-tutorial/2017/01/28/C-programming-2</id>
+   <link href="http://localhost:4000/posts/c-tutorial-2"/>
+   <id>http://localhost:4000/posts/C-programming-2</id>
    <updated>2017-01-28T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;You would certainy not only always print &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World!&lt;/code&gt; in your &lt;code class=&quot;highlighter-rouge&quot;&gt;C program&lt;/code&gt; But it is almost all about print and scan, that’s what the user sees. To begin with scanning from user. We need to understand how to &lt;code class=&quot;highlighter-rouge&quot;&gt;declare&lt;/code&gt; a variable, &lt;code class=&quot;highlighter-rouge&quot;&gt;initialise&lt;/code&gt; it or &lt;code...</content>
  </entry>
@@ -105,8 +105,8 @@
 
  <entry>
    <title>Html-1:Starting Html5</title>
-   <link href="http://localhost:4000/html/2017/01/27/html-1.html"/>
-   <id>http://localhost:4000/html/2017/01/27/html-1</id>
+   <link href="http://localhost:4000/posts/html-1"/>
+   <id>http://localhost:4000/posts/html-1</id>
    <updated>2017-01-27T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;If you have ever used HTML in your life, HTML5 is easy and even if you have not, HTML5 is nothing but HTML with more keywords. So you can learn HTML5 at once. HTML or Hyper Text Markup Language is a Markup Language as seen in its name.It is like...</content>
  </entry>

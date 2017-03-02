@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2017-03-01 00:00:00 +0530
 categories: internet
+permalink: /posts/hello-world
 ---
 Have you ever wondered how many ___languages___ are there in which you can actually display anything in your browser. If you have ever searched about ___languages___ used for making websites, you know there are many ___languages___, _frontend_, _backend_, lets not go in all those. In this article I am writing about the types by which you can write `Hello World` in browser. If we start writing all, it would be like a day just to read all those, but I will be writing the most popular ones.<br>
 <ol>

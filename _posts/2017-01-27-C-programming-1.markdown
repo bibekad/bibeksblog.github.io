@@ -4,6 +4,7 @@ title:  "C tutorial-1:Printf"
 date:   2017-01-27 07:19:17 +0530
 categories: c-tutorial
 header: C tutorial-1:Printf
+permalink: /posts/c-tutorial-1
 ---
 The first thnig that anyone will learn on Btech CSE is `C programming`. To start what is `c programming`. It is just a subject oriented language. Anyone would wonder why do we need `C language` when we already have object oriented programming languages like `c++`.
 But in reality we do need `C programming language` because each and every language that comes futher is further extention of C language.(Atleast that's what our teacher said to make us believe that C is important). Now what do we need to start learning `C programming`. We need an operating system. any operating system. `Windows` or `Linux` or `Mac` or any other. And you will need an editing software. Like while I was using `windows`, I used `Dev C++`, some of my friends used `Code Blocks`.You can visit their official website, download and install. Easy as that. For `linux` you can use any editor just like `gedit`, or `leafpad`, I personally like to use `Atom`. to download atom just go to <a href="http://atom.io">Atom</a> website and download it and install it using your terminal.

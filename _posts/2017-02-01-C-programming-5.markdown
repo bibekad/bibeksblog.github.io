@@ -3,6 +3,7 @@ layout: post
 title:  "C tutorial-5:Loop"
 date:   2017-02-01 08:23:17 +0530
 categories: c-tutorial
+permalink: /posts/c-tutorial-5
 ---
 `loops` you will find many loops on other programs if you watch any, now how to apply `loops`, there are three methods, the `while loop`, `the do while loop`, the `for loop`. Now lets see how they are used and why<br>
 while(comdition){<br>

@@ -3,6 +3,7 @@ layout: post
 title:  "C tutorial-3:Print variable"
 date:   2017-01-29 09:23:17 +0530
 categories: c-tutorial
+permalink: /posts/c-tutorial-3
 ---
 Do you remember using `printf` variable and `scanf` variable. If you do that's what we need now.
 {% highlight ruby %}

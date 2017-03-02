@@ -3,6 +3,7 @@ layout: post
 title:  "C tutorial-4:Algebra"
 date:   2017-01-30 09:23:17 +0530
 categories: c-tutorial
+permalink: /posts/c-tutorial-4
 ---
 Now let's begin again. Now we are going to look towards algerbra like `+`,`-`,`*`,`/`. To start with lets initialize two variables 'a' and 'b'
 {% highlight ruby %}

@@ -3,6 +3,7 @@ layout: post
 title:  "HTML-4:Making Header"
 date:   2017-01-30 09:23:17 +0530
 categories: html
+permalink: /posts/html-4
 ---
 In the `header` we have made contains two `nav`s `navleft` and `navright`. `navleft` will contain the heading of blog, while `navright` will contain the menu of the blog.
 Now let's continue editing the previous blog

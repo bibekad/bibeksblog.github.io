@@ -3,6 +3,7 @@ layout: post
 title:  "C tutorial-2:Variables and Scanf"
 date:   2017-01-28 09:23:17 +0530
 categories: c-tutorial
+permalink: /posts/c-tutorial-2
 ---
 You would certainy not only always print `Hello World!` in your `C program` But it is almost all about print and scan, that's what the user sees. To begin with scanning from user. We need to understand how to `declare` a variable, `initialise` it or `give value` to it. Now let's begin
 {% highlight ruby %}

@@ -3,6 +3,7 @@ layout: post
 title:  "Html-1:Starting Html5"
 date:   2017-01-27 09:23:17 +0530
 categories: html
+permalink: /posts/html-1
 ---
 If you have ever used HTML in your life, HTML5 is easy and even if you have not, HTML5 is nothing but HTML with more keywords. So you can learn HTML5 at once. HTML or Hyper Text Markup Language is a Markup Language as seen in its name.It is like a skeleton of a body.
 {%highlight ruby %}
