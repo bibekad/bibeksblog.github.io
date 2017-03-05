@@ -2,6 +2,7 @@
 layout: post
 title: "Travel Infographic"
 categories: internet
+date: 2017-03-04 00:00:00 +0530
 permalink: /posts/travel-blogger/
 ---
 This is an infographic profile of the modern Travel Blogger by [visually](http://visual.ly/profile-modern-travel-blogger). In this infographic you can see how a travel blogger sets up profile

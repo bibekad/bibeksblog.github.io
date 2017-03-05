@@ -4,7 +4,7 @@
  <title>Bibek Adhikari</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-03-04T16:52:05+05:45</updated>
+ <updated>2017-03-05T11:47:00+05:45</updated>
  <author>
    <name></name>
    <uri></uri>
@@ -14,10 +14,20 @@
  
 
  <entry>
+   <title>Free blogger - 1</title>
+   <link href="http://localhost:4000/posts/free-blogger/"/>
+   <id>http://localhost:4000/posts/Free-blogger</id>
+   <updated>2017-03-05T00:15:00+05:45</updated>
+   <content type="html">&lt;p&gt;It was back in 2012, when I made my first blog, That was a blog hosted in &lt;a href=&quot;http://wordpress.com&quot;&gt;wordpress(dot)com&lt;/a&gt;, then about a year later, in 2013, I deleted that blog and made another one in &lt;a href=&quot;http://blogspot.com&quot;&gt;blogspot&lt;/a&gt;, then nex year I went to live in a hostel where using internet...</content>
+ </entry>
+
+ 
+
+ <entry>
    <title>Travel Infographic</title>
    <link href="http://localhost:4000/posts/travel-blogger/"/>
    <id>http://localhost:4000/posts/Travel-Blogger</id>
-   <updated>2017-03-04T00:00:00+05:45</updated>
+   <updated>2017-03-04T00:15:00+05:45</updated>
    <content type="html">&lt;p&gt;This is an infographic profile of the modern Travel Blogger by &lt;a href=&quot;http://visual.ly/profile-modern-travel-blogger&quot;&gt;visually&lt;/a&gt;. In this infographic you can see how a travel blogger sets up profile
 &lt;a href=&quot;http://thumbnails-visually.netdna-ssl.com/profile-of-the-modern-travel-blogger_524d85e27fc75.jpg&quot;&gt;&lt;img class=&quot;visually_embed_infographic&quot; src=&quot;http://visual.ly/node/image/88807?_w=548&quot; alt=&quot;Profile of the Modern Travel Blogger&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -101,16 +111,6 @@
    <id>http://localhost:4000/posts/C-programming-3</id>
    <updated>2017-01-29T09:38:17+05:45</updated>
    <content type="html">&lt;p&gt;Do you remember using &lt;code class=&quot;highlighter-rouge&quot;&gt;printf&lt;/code&gt; variable and &lt;code class=&quot;highlighter-rouge&quot;&gt;scanf&lt;/code&gt; variable. If you do that’s what we need now.&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;213&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;If you remember the initialiser...</content>
- </entry>
-
- 
-
- <entry>
-   <title>HTML-2:Making body</title>
-   <link href="http://localhost:4000/posts/html-2"/>
-   <id>http://localhost:4000/posts/html-2</id>
-   <updated>2017-01-28T09:38:17+05:45</updated>
-   <content type="html">&lt;p&gt;To start with, maaking a &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML-5&lt;/code&gt; webpage we have to strat from the first tag. Then the links, meta tags, the head, then the body.&lt;br /&gt;&lt;/p&gt; &lt;h3&gt;HTML&lt;/h3&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Web&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt; &lt;span...</content>
  </entry>
 
  
